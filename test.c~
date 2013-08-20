@@ -12,6 +12,6 @@ int main()
 	FILE* fp2=fopen("test.out","w");
 	long long int x,y;	
 	fscanf(fp1,"%lld %lld", &x,&y);
-	fprintf(fp2,"%lld\n",x+y);
+	fscanf(fp2,"%lld\n",x+y);
 return 0;
 }
